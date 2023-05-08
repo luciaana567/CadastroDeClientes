@@ -10,11 +10,8 @@ namespace CadastroDeClientes.Domain.Models
 {
 	public class Cliente
 	{
-		public string Id { get; set; }
-		public string Nome { get; set; }
-		public Genero Genero { get; set; }
-		public DateTime DataNascimento { get; set; }
-		public int Idade { get; set; }
+		public int Id { get; set; }
+		public Pessoa Pessoa { get; set; }
 		public Cidade Cidade { get; set; }
 	}
 }

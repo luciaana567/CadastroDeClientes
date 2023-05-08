@@ -10,10 +10,7 @@ namespace CadastroDeClientes.Domain.Dto
     public class ClienteDTO
     {
 		public string Id { get; set; }
-		public string Nome { get; set; }
-		public Genero Genero { get; set; }
-		public DateTime DataNascimento { get; set; }
-		public int Idade { get; set; }
+		public PessoaDTO Pessoa { get; set; }
 		public CidadeDTO Cidade { get; set; }
 	}
 }
